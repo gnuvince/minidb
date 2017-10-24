@@ -1,0 +1,14 @@
+[package]
+name = "minidb"
+version = "0.1.0"
+authors = ["Vincent Foley <vfoley@gmail.com>"]
+
+[dependencies]
+log = "*"
+env_logger = "*"
+serde = "*"
+serde_derive = "*"
+bincode = "*"
+
+[profile.dev]
+debug = true
